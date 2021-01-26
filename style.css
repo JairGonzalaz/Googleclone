@@ -1,0 +1,185 @@
+*
+{
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 62.5%;
+}
+/*header_____________________________________*/
+header
+{
+    width: 100%;
+    height: 3rem;
+    
+}
+header nav
+{
+    margin: 1rem;
+    position: absolute;
+    right: 0rem;
+
+    
+
+}
+header nav ul
+{   
+    display: flex;
+    justify-content: right ;
+    align-items: center;
+    
+}
+header nav ul li
+{
+    padding: 0 0.6rem;
+    list-style: none;
+    font-size: 0.9rem;
+    
+}
+header nav ul li svg
+{
+    width: 1.1rem;
+    color: #737373;
+
+}
+header nav ul li img
+{
+    border-radius: 50%;
+}
+/*main___________________________________________*/
+main
+{  
+    width: 100%;
+    height: 500px; 
+    align-items: center; 
+}
+.google-logo
+{
+    width: 272px;
+    height: 92px;
+    
+ 
+}
+main section.center
+{
+   height: 500px;
+   width: auto;
+   padding-top: 80px;
+}
+main section div
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+main section form div figure img.lupa
+{
+    width: 15px;
+    margin: auto;
+    margin-right: 15px;
+    
+    
+}
+main section form div figure img.mic
+{
+    width: 25px;
+    margin: auto;
+    margin-left: 15px;
+    
+    
+}
+main section form div.barra-de-busqueda
+{
+    padding: 24px;
+    height: 10px;
+    width: 500px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin:auto;
+}
+main section form div.barra-de-busqueda:hover
+{
+    box-shadow: 0 1px 6px 0 #dfe1e5;
+    border-color: #ececec;
+}
+main section form div label input.barra
+{
+    height: 40px;
+    width: 400px;
+    border:none;
+    outline: none;/*quitar el borde al hacer click en la barra */
+    font-size: 1.2rem;
+    
+}
+main section form div.botones 
+{
+    margin-top: 30px;
+}
+main section form div.botones label input
+{
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    border-radius: 2px;
+}
+/*footer___________________________________*/
+footer
+{
+    background-color: #f2f2f2;
+    height: 90px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    
+
+}
+footer section
+{
+    display: flex;
+    border-top: 1px solid #dadce0;
+}
+footer section.pais
+{
+    padding: 15px;
+}
+footer section.pais p
+{
+    font-size: 12px;
+    color: #70757a;
+}
+footer section.segundo
+{
+    display: flex;
+    
+}
+footer section div ul
+{
+    display: flex;
+    align-items: center;
+}
+footer section div ul li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+footer section div ul li a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color:#70757a ;
+}
+footer section div.der
+{
+    position: absolute;
+    right: 0px;
+}
